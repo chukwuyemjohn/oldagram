@@ -1,5 +1,115 @@
-html, body {
-    margin: 0;
+body {
+    margin-top: 100px;
     padding: 0;
+    box-sizing: border-box;
+     background: #EDEDED;
+     font-family: "Source Sans Pro";
 }
 
+main{
+    
+    width: 375px;
+    background: #FFFFFF;
+    margin:0 auto;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    
+}
+/* Nav */
+.navbar{
+    
+    background: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+   /* border-radius: 20px; */
+   border-top-left-radius:20px;
+   border-top-right-radius:20px;
+   
+    
+}
+.logo{
+    width: 127px;
+    margin-right: auto;
+}
+
+/*  user profile */
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
+.portrait{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  
+}
+.profile-picture{
+   
+    padding: 0 10px;
+
+}
+.name{
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 700;
+   
+
+}
+.location{
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+ /* user post */ 
+.post-img{
+    
+    width: 375px;
+    
+
+}
+/* viewers icon */
+.post-icon{
+    width:23;
+    padding: 30px 10px 0px 10px;
+    
+
+}
+.liked{
+    color: #f80000; /* red */
+}
+.comment {
+  color: limegreen;
+}
+i{
+    padding-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.post-icon:hover,
+.post-icon:focus{
+   
+    /* opacity: 50%; */
+}
+.likes{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+    padding-left: 17px;
+}
+.username{
+    font-size: 13px;
+    font-weight: 700;
+   padding-left: 17px;
+   padding-right: 20px;
+   margin: 0;
+}
+.quote{
+    font-weight: 400;
+    margin-left: 5px;
+}
